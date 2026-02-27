@@ -222,6 +222,7 @@ tr:hover td { background: var(--surface2); }
   max-width: 600px;
   width: 90%;
   max-height: 80vh;
+  overflow-x: hidden;
   overflow-y: auto;
   box-shadow: var(--shadow-xl);
   animation: scaleIn 0.2s var(--ease-spring);
@@ -1121,8 +1122,10 @@ mark.search-highlight {
 /* Utility */
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
 .items-center { align-items: center; }
 .justify-between { justify-content: space-between; }
+.gap-1 { gap: 4px; }
 .gap-2 { gap: 8px; }
 .gap-3 { gap: 12px; }
 .gap-4 { gap: 16px; }
